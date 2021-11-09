@@ -22,9 +22,9 @@ namespace BinarySearch
             binarySearch.Insert(67);
             binarySearch.Display();
             binarySearch.GetSize();
-           // Console.WriteLine(binarySearch.size());
-
-
+            // Console.WriteLine(binarySearch.size());
+            bool result=binarySearch.Search(95,binarySearch);
+            Console.WriteLine(result);
         }
     }
 }
